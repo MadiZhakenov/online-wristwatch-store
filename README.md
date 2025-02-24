@@ -29,5 +29,5 @@ Wristwatch Store is a full-stack e-commerce application for selling wristwatches
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/MadiZhakenov/Final-WT2.git
-cd Final-WT2
+git clone https://github.com/MadiZhakenov/online-wristwatch-store.git
+cd online-wristwatch-store
