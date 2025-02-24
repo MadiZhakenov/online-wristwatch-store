@@ -1,2 +1,1 @@
-
-const API_URL = "https://wristwatch-store.onrender.com";
+const API_URL = "https://wristwatch-store.onrender.com/api";
