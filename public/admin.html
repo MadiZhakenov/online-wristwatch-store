@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Admin Panel</h1>
+        <nav>
+            <a href="logout.html">Logout</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Manage Products</h2>
+
+        <form id="addProductForm">
+            <input type="text" id="name" placeholder="Product Name" required>
+            <input type="text" id="brand" placeholder="Brand" required>
+            <input type="number" id="price" placeholder="Price" required>
+            <input type="text" id="description" placeholder="Description" required>
+            <input type="number" id="stock" placeholder="Stock Quantity" required>
+            <input type="text" id="category" placeholder="Category" required>
+            <button type="submit">Add Product</button>
+        </form>
+
+        <h2 style="margin-top: 20px;">Existing Products</h2>
+        <div class="product-container" id="adminProducts"></div>
+        <div class="admin-panel">
+            <div id="orders-section">
+                <h2>Manage Orders</h2>
+                <div id="orders-container">
+                </div>
+            </div>
+            <div id="customers-section">
+                <h2>Manage Customers</h2>
+                <div id="customers-container">
+                </div>
+            </div>
+            <div id="carts-section">
+                <h2>Manage Carts</h2>
+                <div id="carts-container">
+                </div>
+            </div>
+            <div id="payments-section">
+                <h2>Manage Payments</h2>
+                <div id="payments-container">
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Wristwatch Store. All rights reserved.</p>
+    </footer>
+    <script src="config.js"></script>
+    <script src="admin.js"></script>
+</body>
+</html>
